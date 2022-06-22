@@ -30,7 +30,7 @@
 	}
 
 	</style>
-	<link rel="stylesheet"href="style1.css">
+
 	<script>
 
 	</script>
@@ -91,8 +91,10 @@
         <h1>يرجي التقاط لقطة شاشه للبيانات و ارساله عبر زر الارسال</h1>
         <input type="reset"class="n3">
 <input type="submit"value="ارسال البيانات عبر Whatsapp"class="n3">
+       </fieldset>
+       </form>
         
 
 	</body>
-</html>
 	
+</html>
