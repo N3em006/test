@@ -1,0 +1,181 @@
+    <!--page1(الصفحة الرئيسية)-->
+<!DOCTYPE html>
+<html lang="en" id="html1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center id="c1">
+
+    <body id="body1">
+        <div id="fd">
+            <h1 id="h1fd">Modern Media</h1>
+            <a href="http://wa.me/+201016906526" target="_blank">
+                <img src="hp100.png" alt="Error" width="50" id="hp10">
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="nphd">
+            <br>
+            <img src="nph.png" alt="Error" width="550">
+        </div>
+        <br><br>
+      <!--  <div id="phd2">-->
+            <img src="ph2.png" alt="Error" width="300" id="img1">
+
+            <img src="ph3.png" alt="Error" width="300" id="img2">
+        <!--</div>-->
+        <br>
+        <br>
+        <div id="phd">
+            <h1></h1>
+            <img src="hph2.png" alt="Error" width="100" id="php2" hidden>
+            <a href="tel:+201016906526" target="_blank" id="ah1" hidden>
+                <img src="ca.png" alt="Error" width="110" id="img9">
+            </a>
+            <a href="http://wa.me/+201016906526" target="_blank" id="ah2" hidden>
+                <img src="hp100.png" alt="Error" width="110" id="img0">
+            </a>
+        <img src="ph1.png" alt="Error" width="500" id="phdf">
+        </div>
+        <br>
+        <img src="ph5.png" alt="Error" id="ph5" width="120px">
+        <div hidden id="hd1">
+            <h1 id="h1sd">Modern Media©</h1>
+            <h4>email address:**********@gmail.com</h4>
+            <h4>location:**********</h4>
+            <h1>Build By : </h1>
+            <img src="logo.png" alt="Error" width="120">
+            <br>
+            <h1>Mahmoud & Abd Elrahman</h1>
+            <h1>N3EM</h1>
+
+        </div>
+        <br>
+        <img src="ph8.png" alt="Error" id="ph8" width="120px" hidden>
+
+    </body>
+</center>
+<!--/page1-->
+
+<!--page2(خدمات السوشيال ميديا)-->
+<div id="c2" hidden>
+    <center>
+
+        <body id="body1">
+            <div id="fd">
+                <h1 id="h1fd">Modern Media</h1>
+            <a href="http://wa.me/+201016906526" target="_blank">
+                <img src="hp100.png" alt="Error" width="50" id="hp10">
+            </a>
+                <img src="ph4.png" alt="Error" width="50" id="ph4">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="hd1">
+                <h1>h1n3em</h1>
+            </div>
+        </body>
+    </center>
+</div>
+<!--/page2-->
+
+<!--page3(تسويق الكتروني)-->
+<div id="c3" hidden>
+    <center>
+
+        <body id="body1">
+            <div id="fd">
+                <h1 id="h1fd">Modern Media</h1>
+            <a href="http://wa.me/+201159148244" target="_blank">
+                <img src="hp100.png" alt="Error" width="50" id="hp10">
+            </a>
+                <img src="ph4.png" alt="Error" width="50" id="ph40">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="hd1">
+                <h1>h1n3em</h1>
+            </div>
+        </body>
+    </center>
+</div>
+<!--/page3-->
+
+
+</html>
+
+<!--scripts-->
+<script src="main.js"></script>
+<!--jquery-->
+<script src="jquery-3.6.1.js"></script>
+<script src="jquery-3.6.1.min.js"></script>
+<script>
+$(document).ready(function() {
+        $("#ph5").click(function() {
+            $('#hd1').toggle('medium');
+            $('#ph5').toggle('medium');
+            $('#ph8').toggle('medium');
+        });
+    
+        $("#ph8").click(function() {
+            $('#hd1').toggle('medium');
+            $('#ph8').toggle('medium');
+            $('#ph5').toggle('medium');
+        });
+
+        $("#img2").click(function() {
+            $('#c1').toggle('fast');
+            $('#c2').toggle('fast');
+        });
+        
+        $("#ph4").click(function() {
+            $('#c1').toggle('fast');
+            $('#c2').toggle('fast');
+        });
+        
+    
+        $("#img1").click(function() {
+            $('#c1').toggle('fast');
+            $('#c3').toggle('fast');
+        });
+        
+        $("#ph40").click(function() {
+            $('#c3').toggle('fast');
+            $('#c1').toggle('fast');
+        });
+        
+        $("#phdf").click(function() {
+            $('#phdf').toggle('slow');
+            $('#ah1').toggle('slow');
+            $('#ah2').toggle('slow');
+            $('#php2').toggle('slow');
+
+        });
+        
+        $("#php2").click(function() {
+            $('#phdf').toggle('slow');
+            $('#ah1').toggle('slow');
+            $('#ah2').toggle('slow');
+            $('#php2').toggle('slow');
+        });
+    });
+
+</script>
+<!--jquery-->
+<!--/scripts-->
